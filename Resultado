@@ -1,0 +1,26 @@
+package Solucao;
+
+public class resultado {
+	private String nome;
+	private double preco;
+	
+	 public resultado(String nome, double preco) {
+		this.nome = nome;
+		this.preco = preco;
+	}
+	public String getnome() {
+		   return nome;
+	 }
+	 public String setnome(String nome) {
+		   return this.nome = nome;
+	 }
+	   
+	 public double getpreco() {
+		   return preco;
+	 }
+	 public double setpreco(double preco) {
+		   return this.preco = preco;
+	 }
+ 
+}
+
